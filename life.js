@@ -66,7 +66,7 @@ function init()
     resetDensity = params['resetDensity'] || resetDensity;
     resetInterval = params['resetInterval'] || resetInterval;
 
-    document.body.style.setProperty("background-color", bgColor);
+    document.body.style.setProperty("background-color", bgColor, null);
 
     canvas = document.getElementById('display');
     canvas.width = width*scale;
